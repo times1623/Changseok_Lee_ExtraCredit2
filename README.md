@@ -2,11 +2,16 @@
 Use the Mini app class files and complete the following for extra marks that can be applied at the end of the semester.
 
 ### Built With
-Git -for versioning.
-Gulp.js - used sass, serve with gulp.
-SASS - used SASS to manipulate css.
-NPM - npm to install gulp
-Vue.js - used to store data, use @click to trigger function,v-for to loop, fetch data from db.
+
+* Git -for versioning.
+
+* Gulp.js - used sass, serve with gulp.
+
+* SASS - used SASS to manipulate css.
+
+* NPM - npm to install gulp
+
+* Vue.js - used to store data, use @click to trigger function,v-for to loop, fetch data from db.
 
 ### Authors
 This project is entirely built by myself.
