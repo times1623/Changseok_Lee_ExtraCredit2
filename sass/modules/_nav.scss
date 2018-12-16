@@ -1,0 +1,52 @@
+.topNav {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	height: 60px;
+	z-index: 99999;
+	background: none repeat scroll 0% 0% #000;
+	border-bottom: 1px solid #A5A5A5;
+	margin-bottom: 10s0px;
+}
+
+nav {
+	width:1200px;
+	max-width: 1200px;
+	margin:0 auto;
+	padding-top:10px;
+    color:white;
+    
+    ul {
+        margin-bottom:0 !important;
+        padding-top:8px !important;
+        display:inline-block; 
+
+        li {
+            -webkit-user-select: none;  /* Chrome all / Safari all */
+            -moz-user-select: none;     /* Firefox all */
+            -ms-user-select: none;
+            cursor:default;
+        }
+
+        li:last-child::after {
+            content:""; 
+        }
+    }
+}
+
+li > p { 
+    margin-bottom: 5px; 
+    font-family: arial, helvetica, sans-serif; 
+}
+
+nav > div { 
+    cursor: pointer; 
+}
+
+nav > div > i {
+	margin-right:8px;
+	font-size: 1.5em !important;
+	position: relative;
+	top: 2px;
+}
+

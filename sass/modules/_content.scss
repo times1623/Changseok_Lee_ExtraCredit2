@@ -1,0 +1,98 @@
+
+
+.modelDetails {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	max-height: 200px;
+	overflow-y: auto;
+}
+
+
+.chevron { 
+    padding-top:10px;
+    margin-left:10px; 
+    cursor:pointer; 
+}
+
+.global-nav-item {
+  position: relative;
+  /*float: left;*/
+  background-image: url(../images/header-grey-grad.jpg);
+  height: 57px;
+  padding: 15px;
+  top: -10px;
+}
+
+
+.mainContainer {
+	background: url("../images/landing-bg.jpg") no-repeat;
+	background-position: -350px 0;
+	min-height: 500px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.thumbInfo img { 
+    cursor: pointer; 
+    transition: all .6s; 
+    width: 175px;
+} /*, .mainContainer img*/
+
+.modelDesc, .subM { 
+    margin-bottom: 0; 
+}
+.subM { 
+    margin-top: 20px; 
+}
+
+.instructions { 
+    font-size: .8em; 
+    font-family: arial, helvetica, sans-serif; 
+}
+
+.thumbInfo ~ hr { 
+    border-color: #A5A5A5; 
+}
+
+#map-canvas { 
+    width: 100%; 
+    height:200px; 
+    border: thin dashed #fff; 
+}
+#map-canvas > div { 
+    color: black; 
+}
+
+.fa-expand { 
+    cursor: pointer; 
+    margin-top: 8px; 
+}
+.searchButtons button { 
+    width: 100%; 
+}
+#changeLoc { 
+    height: 3.25rem; 
+}
+
+/* ========= animation classes ==============*/
+
+/* you may have to write more here - these are my simple fades, etc */
+
+.nonActive { 
+    opacity: 0.4; 
+}
+
+.fadeOut { 
+    opacity:0; 
+}
+
+sup { 
+    font-size: 0.7em; 
+}
+
+.focusMini {
+	opacity:1;
+	z-index: 1000;
+	top:190px;
+	width:550px;
+	left: 250px;
+}
