@@ -1,1 +1,1 @@
-# Changseok_Lee_ExtraCredit2
+# a2_Week7_AJAX
