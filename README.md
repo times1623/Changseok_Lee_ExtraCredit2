@@ -11,7 +11,7 @@ Vue.js - used to store data, use @click to trigger function,v-for to loop, fetch
 ### Authors
 This project is entirely built by myself.
 
-Changseok Lee (Lee) - Developer,Designer
+* Changseok Lee (Lee) - Developer,Designer
 
 ### Future Developments
 overall design of the site can be improved
